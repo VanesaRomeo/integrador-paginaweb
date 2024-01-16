@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,300;0,400;0,500;0,700;1,200&family=Josefin+Sans:ital,wght@0,200;0,400;0,700;1,300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
-  color: #061738;
+  
   font-family: "IBM Plex Serif", serif;
 }
 
 header {
+ 
   background: rgb(213, 144, 174);
   background: linear-gradient(
     90deg,
@@ -20,10 +22,10 @@ header {
   justify-content: space-between;
   padding: 10px;
   align-items: center;
-
   top: 0%;
   left: 0;
   width: 100%;
+  
 }
 
 img {
@@ -38,36 +40,42 @@ img {
 
 nav {
   display: flex;
+
+
 }
 .nav-list {
   display: flex;
   gap: 30px;
   text-align: left;
+
+padding: 10px;
 }
 
 a {
   font-size: 20px;
 }
 
-main {
-  background: rgb(167, 184, 215);
-  background: linear-gradient(
-    0deg,
-    rgba(167, 184, 215, 1) 28%,
-    rgba(91, 209, 213, 1) 93%
-  );
+
+main,
+.conteiner {
+  background: rgb(167,184,215);
+  background: linear-gradient(0deg, rgba(167,184,215,1) 28%, rgba(91,209,213,1) 93%);
+  
   display: flex;
   flex-direction: column;
-  /* align-items: center;*/
-  padding: 50px;
   align-items: center;
+  padding: 70px;
+  width: 100%;
+    
 }
 
-h1 {
+h1{
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 30px;
+  
 }
+
 .info-tex {
   font-size: 30px;
   margin-bottom: 30px;
@@ -77,90 +85,287 @@ h1 {
 .info-section {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: space-between;
-  gap: 90px;
-  padding: 90px;
+  text-align: center;
+  gap: 50px;
+  padding: 50px;
 }
 
-.info-section img {
-  width: 350px;
-  height: 300px;
 
+
+.info-section img {
+  width: 400px;
+  height: 350px;
+align-items: center;
   border: 3px solid #000;
+
+  }
+
+.conteiner-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.soy-un-div{
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border:3px solid #000;
+  gap:20px;
+  padding: 30px;
+  text-align: center;
+  
+
 }
 
 .soy-div-conteiner {
+  flex: 1;
+ 
   display: flex;
-  gap: 15px;
+ justify-content: space-between;
+ gap: 20px;
   max-width: 1500px;
   align-items: center;
+   
 }
 
-.soy-un-div {
-  border: 4px solid #2d2e09;
-  border-radius: 10px;
-  background: rgb(213, 144, 174);
-  background: linear-gradient(
-    90deg,
-    rgba(213, 144, 174, 1) 5%,
-    rgba(146, 177, 214, 1) 98%
-  );
-}
-.soy-un-div img,
-h3,
-p {
-  margin: 5px;
-  padding: 10px;
-}
-
-.soy-section {
+.soy-section{
+ 
   display: flex;
+  padding: 90px;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
-  font-size: 30px;
+  justify-content: center;
+  gap: 90px;
+  
   text-align: center;
+  font-size: 25px;
 }
+
 .soy-p-section {
   width: 700px;
+  font-size: 25px;
 }
 
-./*product-conteiner {
-  display: flex;
-  max-width: 1100px;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}*/
 
-.product-conteiner {
-  display: flex;
-  gap: 20px;
-}
 
 .product {
-  padding: 10px;
-  border-radius: 20px;
+  border:3px solid gray;
+   border-radius: 10px; 
+   width: 350px;
+   background-color:black;
+   
+    padding: 15px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  width: 300px;
-}
-
-.product img {
-  width: 300px;
-  height: 350px;
-}
-.product p {
-  font-size: 30px;
-}
-
-.product-img {
-  width: 20px;
-  height: 20px;
-}
-.product-div {
-  display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
+ gap:10px;
+  text-align: center;
+  
+   
+}
+
+.soy-p-product{
+  text-align: center;
+  font-size: 20px;
+ 
+}
+
+
+
+.product-conteiner{
+  border:3px solid #000;
+  width: 1200px;
+display: flex;   background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+justify-content: center;
+align-items: center;
+gap: 30px;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+.product-conteiner p, span{
+   color: antiquewhite;
+}
+
+.img-product {
+   width: 250px;
+  height: 250px;
+    
+}
+
+.product-div img {
+width: 20px;
+height: 20px;
+display: flex;
+ justify-content: space-between;
+ 
+}
+
+.product-div{
+ display: flex;
+  justify-content: center;
+    align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+.soy-un-link {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+  
+  }
+
+  .product-section h2{
+    font-size: 30px;
+  }
+
+.product-conteiner-primero{
+  width: 1100px;
+  border:3px solid #000;
+}
+button{
+  background-color: black;
+  border:3px solid gray;
+  color: antiquewhite;
+  padding: 10px;
+
+}
+
+
+footer{
+  background-color: #000;
+ display: flex;
+ flex-direction: column;
+ align-items:center ;
+
+ 
+  }
+  footer p,a{
+     color: aliceblue;
+  }
+
+  .pie-pag{
+    gap: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  } 
+
+  .pie-pag img{
+    width: 50px;
+    height: 45px;
+    
+
+  }
+
+
+
+ .div-formulario {
+  background-color: antiquewhite;
+  border:3px solid #000;
+display: flex;
+gap: 15px;
+flex-direction: column;
+padding: 10px;
+width: 500px;
+
+
+ }
+
+ 
+ form {
+
+display: flex;
+gap: 15px;
+justify-content:left;
+flex-direction: column;
+
+
+}
+
+
+.checkbox{ 
+  font-size: 15px;
+  display: flex;
+gap: 15px;
+padding: 10px;
+align-items: center;
+    width: 90px;
+}
+
+
+.checkbox input{ 
+ 
+    width: 90px;
+}
+
+ .span-formulario {
+  color: red;
+ }
+
+ .div-formulario h3 {
+  text-align: center;
+  }
+  .enviar{ 
+    display:flex;
+    justify-content: center;
+   padding: 10px;
+    }
+
+  input {
+    width: 230px; 
+   
+  }
+
+{ }{ }{ }{ }{ }{ }
+
+.conteiner-formulario { 
+background-color:#000;
+  border:3px solid gray;
+  display: flex;
+  align-items: center;
+   width: 1000px;
+ 
+  flex-direction: column;
+  gap: 30px;
+  padding: 60px;
+ 
+}
+
+
+  
+.conteiner-formulario h2 { 
+  color: antiquewhite;
+  font-size: 30px;
+  text-align: center;
+    display: flex;
+ 
+ 
+}
+
+#menu-toggle{
+  display: none;
+}
+
+.menu-toggle{
+  display: none;
+  position: absolute;
+  right:50px ;
 }
