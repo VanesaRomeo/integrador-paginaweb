@@ -74,6 +74,7 @@ main,
 }
 
 h1{
+  margin-top: 10%;
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -112,6 +113,7 @@ align-items: center;
   text-align: center;
   }
 }
+
 
 .soy-un-div{
   background-color: #8EC5FC;
