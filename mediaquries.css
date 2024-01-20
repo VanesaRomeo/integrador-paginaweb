@@ -93,7 +93,7 @@ width: 500px;
     top: 70px;
     right: 30px;
     background-color: black;
-    width: 30%;
+    width: 25%;
     padding: 10px;
     border-radius: 0 0 15px 15px;
     border: 3px solid gray;
@@ -106,6 +106,9 @@ width: 500px;
       display: flex;
     }
 
+    .header{
+      width: 100%;
+    }
       header img
       {
 width: 100px;
@@ -116,13 +119,14 @@ height: 50px;
 
  nav{
   display: flex;
-left: 10px;
+left: 20px;
    }
 
    .conteiner-info p,
    .soy-section p,
    .soy-p-section{
-    width: 450px;
+    width: 400px;
+    padding: 10px;
    }
 
   h1, .soy-section h2{
@@ -131,7 +135,7 @@ left: 10px;
 
   .soy-div-conteiner{
     display: block;
-    width: 500px;
+    width: 400px;
     
   } 
 
@@ -140,7 +144,10 @@ left: 10px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 500px;
+      width: 400px;
+    }
+    .product-section h2{ text-align: center;
+
     }
 
     .info-text{
@@ -148,15 +155,22 @@ left: 10px;
       gap: 10px;
     }
       
-    .div-formulario, .div-formulario2 .checkbox  {
-width: 200px;
+    .div-formulario, .div-formulario2,.checkbox    {
+width: 300px;
  flex-direction: column;
   justify-content: center;
   
     }
+    .conteiner{
+      text-align: center;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+      
 
     .conteiner-formulario {
-width:300px ;
+width:400px ;
 
  }
 
