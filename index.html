@@ -1,37 +1,44 @@
-          <!DOCTYPE html>
+|          <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Magic food</title>
-    <link  rel="stylesheet" type="text/css" href="style.css" />
-   <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-   <link  rel="stylesheet" type="text/css" href="mediaquries.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link  rel="stylesheet" type="text/css" href="mediaquries.css" />
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+   
+   
   </head>
   <body>
+ 
     <header>
-      <img src="IMG/Magic Food.png" alt="LOGO" />
+      <img src="IMG/Magic Food (1).png" alt="LOGO" />
       
       <nav>
         <label for="menu-toggle" class="menu-toggle"><i class="fa-solid fa-bars"></i></label>
         <input id="menu-toggle" type="checkbox" />
         <ul class="nav-list">
-          <li><a href="#info-section">Inicio</a></li>
+          <li><a href="#inicio">Inicio</a></li>
           <li><a href="#soy-section">Conocenos</a></li>
           <li><a href="#soy-div-conteiner">Beneficios</a></li>
-          
           <li><a href="#product-section">Productos</a></li>
-          <li><a href="contacto.html">Hablanos</a></li>
+          <li><a href="#conteiner-map">Informaciòn</a></li>
+          <li><a href="contacto.html">Login</a></li>
           
         </ul>
       </nav>
     </header>
-    <main>
-      
-      <h1>La magia del buen comer</h1>
+   
+    <main id="inicio">
+       <h1>La magia del buen comer</h1>
       <section class="info-section" id="info-section">
+      
         <div class="conteiner-info">
-          
+        
 
           <p >
             ¿Que significa esto? es comer saludable y rico. Ofrecemos
@@ -41,12 +48,13 @@
           </p>
        </div>
         
-          <div>
+          <div class="img-hero">
             <img src="IMG/fotoportada.jpg" />
             
         </div>
        
       </section>
+      
       <section class="soy-section" id="soy-section">
         <h2>¿Quienes somos?</h2>
         <p >
@@ -56,17 +64,18 @@
           amor!
         </p>
 
-        <h2>¿porque elegirnos?</h2>
+        <h2 class="section-card">¿porque elegirnos?</h2>
         <div class="soy-div-conteiner" id="soy-div-conteiner">
           <div class="soy-un-div">
             <img src="IMG/5 Tips para lograr equipos comprometidos.webp"
-            alt=""""/>
+          
+           alt=""""/>
             <h3>1</h3>
             <p>
-              Porque estamos comprometidos con la innovación, la eficiencia y la satisfacción total del cliente.Optar por nosotros significa apostar por calidad, confianza y resultados excepcionales.
+          Porque estamos comprometidos con la innovación, la eficiencia y la satisfacción del cliente. Optar por nosotros significa apostar por calidad y confianza.
             </p>
           </div>
-          <div class="soy-un-div">
+          <div class="soy-un-div-2">
             <img src="IMG/images.png"
             alt=""""/>
             <h3>2</h3>
@@ -79,8 +88,8 @@
             alt=""""/>
             <h3>3</h3>
             <p>
-              Elegirnos es optar por la excelencia y compromiso en cada servicio que ofrecemos.En cada elección, construimos relaciones sólidas y experiencias inolvidables para nuestros clientes.
-            </p>
+              Elegirnos es optar por la excelencia y compromiso en cada servicio .En cada elección, construimos relaciones sólidas y gustos inolvidables para nuestros clientes.
+          </p>
           </div>
         </section>
        <section class="product-section" id="product-section"> 
@@ -158,11 +167,83 @@
   
     <button href="#">Ver mas</button>                   
   </section>
+<div class="conteiner-map" id="conteiner-map">
+  <h2>Complete el formulario y nos comunicaremos ensegida</h2>
+  <div class="map-div">
+    <h3>Formulario</h3>
+  <form >
+    <div>
+    <label for="nombre y apellido"><b>Nombre y apellido:</b>
+      <span class="span-formulario">*</span>
+    </label>
+    <input type="text" id="nombre y apellido"/ required="obligatorio" placeholder="Nombre y apellido">
+  </div>
+
+  <div class="check-div">
+  <div><input type="checkbox" id="miCheckbox" name="miCheckbox" value="valor">
+ <label for="miCheckbox"><b>deliciamm</b>
+  </label></div>
+<div>
+<input type="checkbox" id="miCheckbox" name="miCheckbox" value="valor">
+<label for="miCheckbox"><b>El viejo solar</b>
+</label> </div>
+<div>
+<input type="checkbox" id="miCheckbox" name="miCheckbox" value="valor">
+<label for="miCheckbox"><b>9 geisha</b>
+</label>
+</div>
+<div>
+<input type="checkbox" id="miCheckbox" name="miCheckbox" value="valor">
+<label for="miCheckbox"><b>VR food</b>
+</label></div>
+<div>
+<input type="checkbox" id="miCheckbox" name="miCheckbox" value="valor">
+<label for="miCheckbox"><b>Pizzeriaringo</b>
+</label></div>
+</div>
+<div>
+  <label for="email"><b>Email:</b>
+    <span class="span-formulario">*</span>
+    </label>
+    <input type="email" id="email" required="obligatorio"  name="introducir_email" placeholder="Email">
+ </div>
+
+<div class="enviar"> 
+  <input  type="submit" value="Enviar" >
+ </div>
+
+ 
+
+
+
+ </form></div>
+  <div  class="mapa" >
+  <h3>Nos encontramos en Caseros 2155</h3>
+    <div class="div-span"><span> Aqui el google map</span>
+  
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.24597715996!2d-66.34815162435756!3d-33.286227289120745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43938714cf61f%3A0xe47069daf614129c!2sCaseros%202155%2C%20D5700HIP%20San%20Luis!5e0!3m2!1ses-419!2sar!4v1708393836270!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe
+        width="300"
+        height="200"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+
+    </div>
+</div>
+</div>
+
+
+
+
+
     </main>
-    <footer>
-      <div class="pie-pag">
-      <img src="IMG/Magic Food.png"/>
+<footer><div class="pie-pag">
+      <img src="IMG/Magic Food (1).png"/>
       <p> <a href="""">Celular:2664221109</a> / <a href="""">Email:magic.food@gmail.com</a> / <a href="""">San Luis(Argentina)</a></p>
     </div></footer>
+  
+  </div>
   </body>
+    
   </html>
