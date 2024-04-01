@@ -121,7 +121,7 @@ h1{
 }
 
 .info-section img {
-  width: 400px;
+  width: 25rem;
   height: 350px;
 align-items: center;
   border: 3px solid #000;
@@ -169,7 +169,7 @@ align-items: center;
 
 .soy-un-div, .soy-un-div-2{
   display: flex;
-  width: 350px;
+  width: 22rem;
   flex-direction: column;
   text-align: left;
   justify-content: center;
@@ -181,7 +181,7 @@ align-items: center;
 .soy-un-div-2{
   border-left:3px solid #000;  
     border-right:3px solid #000;
-width: 370px;
+
 
 }
 
@@ -208,7 +208,7 @@ transition: 0.3s all;
 
 .product {
   position: relative;
-   width: 350px;
+   width: 22rem;
     padding: 15px;
   display: flex;
   flex-direction: column;
