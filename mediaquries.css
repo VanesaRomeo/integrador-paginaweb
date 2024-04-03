@@ -40,12 +40,19 @@
         display: flex;
       }
 
+/* main, .conteiner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
       h1{
         width: 450px;
        
       }
 
-     
+    
 
       .info-section p{
         text-align: center;
@@ -57,15 +64,15 @@
 
       .conteiner-info p, .soy-section p{
         text-align: center;
-        width: 40rem; ;
+        width: 640px; 
       }
       .soy-un-div p, .soy-un-div-2 p{
         text-align: center;
-       width: 30rem ;
+       width: 480px ;
       }
 
       .soy-un-div , .soy-un-div-2{
-        width: 37rem;
+        width: 592px;
       }
 
       main{
@@ -93,21 +100,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 40rem;
+    width: 640px;
   }
   .product{
-    width: 25rem;
+    width: 400px;
   }
 
     .mapa{
-      width: 40rem;
+      width: 640px;
     }
     .conteiner-map h2{
       text-align: center;
 
     }
     .map-div{
-      width: 40rem;
+      width: 640px;
     }
 
     .conteiner-formulario{
@@ -180,22 +187,8 @@
     display: flex;
   left: 20px;
      }
-
-     .info-section, .soy-section{
-      text-align: center;
-     }
-  
-     .conteiner-info p,
-     .soy-section p,
-     .soy-p-section{
-      width: 19rem;
-      padding: 10px;
-      font-size: 20px;
-      text-align: center;
-     }
-  
-    
-  main{
+     
+     main{
     width: 167%;
     margin: 0 0 0 0;
   }
@@ -203,15 +196,25 @@
   .conteiner {
     width: 166%;
   }
-  
+
+     .info-section, .soy-section{
+      text-align: center;
+     }
   
   h1{
     font-size: 30px;
     width: 250px;
   }
-
- 
+     .conteiner-info p,
+     .soy-section p,
+     .soy-p-section{
+      width: 400px;
+      padding: 10px;
+      font-size: 20px;
+      text-align: center;
+     }
   
+ 
   
    .soy-section h2, .section-card h2, .product-section h2, .conteiner-map h2{
     display: flex;
@@ -223,7 +226,7 @@
   }
     .soy-div-conteiner{
       display: block;
-      width: 20rem;
+      width: 400px;
        display: flex;
       flex-direction: column;
       justify-content: center;
@@ -231,7 +234,7 @@
       
     } 
     .soy-un-div-2{
-      width:20rem ; 
+      width:320px ; 
       text-align: center;
     }
   
@@ -247,7 +250,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 20rem;
+        width: 400px;
       }
   
       .product{
@@ -301,11 +304,11 @@
   
   }
   .map-div{
-    width: 250px;
+    width: 350px;
   }
   
   .div-span{
-    width: 250px;
+    width: 350px;
     height: 350px;
   }
   
@@ -316,7 +319,7 @@
   
   iframe{
    
-    width: 230px;
+    width: 350px;
     height: 250px;
   }
   

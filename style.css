@@ -13,17 +13,15 @@
 }
 html{
   scroll-behavior: smooth;
-  scroll-padding: 90px;
+  /* scroll-padding: 90px; */
 }
 
-.overflow-auto {
-  overflow: auto;
-}
+
 
 body{
   width: 100%;
   max-width: 100%;
-  margin: 0;
+  
   overflow-x: hidden;
   display: flex;
   justify-content: center;
@@ -53,9 +51,9 @@ header {
 
 
 img {
-  width: 12.5rem;
-  height: 7.5rem;
-  border-radius: 1.5rem;
+  width: 200px;
+  height: 120px;
+  border-radius: 24px;
  
 }
 .nav-text {
@@ -71,7 +69,7 @@ nav {
 }
 .nav-list {
   display: flex;
-  gap: 1.875rem;
+  gap: 30px;
   text-align: left;
   width: 100%;
 padding: 10px;
@@ -121,7 +119,7 @@ h1{
 }
 
 .info-section img {
-  width: 25rem;
+  width: 400px;
   height: 350px;
 align-items: center;
   border: 3px solid #000;
@@ -167,7 +165,7 @@ align-items: center;
 
 .soy-un-div, .soy-un-div-2{
   display: flex;
-  width: 22rem;
+  width: 352px;
   flex-direction: column;
   text-align: left;
   justify-content: center;
@@ -221,7 +219,7 @@ align-items: center;
 }
 .product {
   position: relative;
-   width: 22rem;
+   width: 352px;
     padding: 15px;
   display: flex;
   flex-direction: column;
@@ -275,7 +273,7 @@ transition: 0.3s all;
 .product-conteiner{
  
   border:3px solid #000;
-  width: 75rem;
+  width: 1200px;
 display: flex;   background-color: #8EC5FC;
 background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 justify-content: center;
