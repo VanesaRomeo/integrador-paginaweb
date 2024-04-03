@@ -8,6 +8,7 @@
 
  
 }
+/* pantalla desde 932px hasta 575px */
 @media  (max-width: 952px) {
     .menu-toggle{
         display: flex;
@@ -163,7 +164,7 @@
       .header{
         margin: 0;
           width: 100%; 
-          /* z-index: 1; */
+      
          
           }
           
@@ -193,10 +194,6 @@
       text-align: center;
      }
   
-     /* body{
-      width: 100%; 
-  
-         } */
     
   main{
     width: 167%;
