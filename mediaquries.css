@@ -203,14 +203,14 @@
   
   h1{
     font-size: 30px;
-    width: 250px;
+    width: 400px;
   }
      .conteiner-info p,
      .soy-section p,
      .soy-p-section{
-      width: 400px;
+      width: 500px;
       padding: 10px;
-      font-size: 20px;
+      font-size: 25px;
       text-align: center;
      }
   
@@ -221,12 +221,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-       width: 250px;
+       width: 300px;
     font-size: 25px;
   }
     .soy-div-conteiner{
       display: block;
-      width: 400px;
+      width: 500px;
        display: flex;
       flex-direction: column;
       justify-content: center;
@@ -242,7 +242,7 @@
   
     .soy-un-div p, .soy-un-div-2 p{
      text-align: center;
-     width: 250px;
+     width: 350px;
     }
   
      .product-conteiner{
@@ -250,7 +250,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 400px;
+        width: 500px;
       }
   
       .product{
@@ -280,7 +280,7 @@
         
   
       .conteiner-formulario {
-  width:400px ;
+  width:500px ;
   
    }
   
